@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Mon Jul  7 19:45:43 2025 as: /usr/lib/nmap/nmap --privileged -sS -T4 -p- -Pn -oN full-scan.txt 192.168.29.36
+Nmap scan report for 192.168.29.36
+Host is up (0.00098s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Mon Jul  7 19:45:47 2025 -- 1 IP address (1 host up) scanned in 4.14 seconds

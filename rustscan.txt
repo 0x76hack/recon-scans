@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Mon Jul  7 19:46:15 2025 as: /usr/lib/nmap/nmap --privileged -vvv -p 80 -4 -sC -sV -oN rustscan.txt 192.168.29.36
+Nmap scan report for 192.168.29.36
+Host is up, received reset ttl 63 (0.00094s latency).
+Scanned at 2025-07-07 19:46:15 IST for 7s
+
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 SimpleHTTPServer 0.6 (Python 3.12.3)
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: SimpleHTTP/0.6 Python/3.12.3
+|_http-title: Directory listing for /
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul  7 19:46:22 2025 -- 1 IP address (1 host up) scanned in 7.36 seconds
