@@ -24,3 +24,11 @@ curl -I http://192.168.29.36
 nc -zv 192.168.29.36 21
 
 smbclient -L 192.168.29.36	
+
+
+
+
+Target Service: HTTP
+Target: Ubuntu VM
+Tool plan: curl + gobuster + fuff
+Goal: Identify hidden dirs and files, find hidden weak points.
